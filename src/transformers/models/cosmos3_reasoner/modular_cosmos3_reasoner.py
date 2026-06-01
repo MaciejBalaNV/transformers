@@ -77,6 +77,12 @@ class Cosmos3ReasonerProcessor(Qwen3VLProcessor):
 
 __all__ = [
     "Cosmos3ReasonerConfig",
+    "Cosmos3ReasonerTextConfig",
+    "Cosmos3ReasonerVisionConfig",
+    "Cosmos3ReasonerVisionModel",
     "Cosmos3ReasonerForConditionalGeneration",
+    "Cosmos3ReasonerModel",
+    "Cosmos3ReasonerPreTrainedModel",
     "Cosmos3ReasonerProcessor",
+    "Cosmos3ReasonerTextModel",
 ]
