@@ -534,6 +534,10 @@ MODEL_TYPE_TO_DOC_MAPPING = OrderedDict(
         ("kosmos-2.5", "kosmos2_5"),
         ("dinov3_convnext", "dinov3"),
         ("dinov3_vit", "dinov3"),
+        # The Cosmos3 model_types (used for unified-checkpoint dispatch) are all documented in cosmos3_reasoner.md
+        ("cosmos3_omni", "cosmos3_reasoner"),
+        ("cosmos3_omni_text", "cosmos3_reasoner"),
+        ("cosmos3_omni_vision", "cosmos3_reasoner"),
     ]
 )
 
